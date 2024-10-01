@@ -1,3 +1,7 @@
-{
-  "extends": "next/core-web-vitals"
-}
+module.exports = {
+  extends: 'next/core-web-vitals', // veya 'eslint:recommended'
+  parser: 'babel-eslint',
+  rules: {
+      // kendi kurallarınızı buraya ekleyebilirsiniz
+  },
+};

@@ -4,20 +4,19 @@ import Future  from "@/components/Future";
 import Pricing from "@/components/Pricing";
 import Sales from "@/components/Sales";
 import Statistic from "@/components/Statistic";
-import WhatsAppButton from "@/components/WhatsAppButton";
+import ChatBot from "@/components/ChatBot";
 
 export default function Home() {
 
   return (
     <div>
         <Hero/>
-        <WhatsAppButton/>
+        <ChatBot/>
         <Pricing/>
         <Future/>
         <Sales/>
         <Accordion/>
         <Statistic/>
-       
     </div>
   );
 }

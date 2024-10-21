@@ -24,40 +24,28 @@ function Footer(){
            Əlaqə vasitələrimiz
          </p>
          <div className="flex">
-           <p className="mr-1 text-white">Mobil:</p>
+           <p className="mr-1 text-white">Tel:</p>
            <a
-             href="tel:+994774466017"
+             href="tel:+994123100777"
              aria-label="Our phone"
              title="Our phone"
              className="transition-colors duration-300 text-white hover:text-deep-purple-800"
            >
-             (---) --- -- --
+             (012) 310 07 77
            </a>
          </div>
          <div className="flex">
            <p className="mr-1 text-white">Email:</p>
            <a
-             href="mailto:azturk.mmc@gmail.com"
+             href="mailto:sales@azturk.az"
              aria-label="Our email"
              title="Our email"
              className="transition-colors duration-300 text-white hover:text-deep-purple-800"
            >
-             azturk.mmc@gmail.com
+             sales@azturk.az
            </a>
          </div>
-         <div className="flex">
-           <p className="mr-1 text-white">Adres:</p>
-           <a
-             href="https://www.google.com/maps"
-             target="_blank"
-             rel="noopener noreferrer"
-             aria-label="Our address"
-             title="Our address"
-             className="transition-colors duration-300 text-white hover:text-deep-purple-800"
-           >
-             -------------
-           </a>
-         </div>
+    
        </div>
        <div>
          <span className="text-base font-bold tracking-wide text-white">
@@ -97,7 +85,7 @@ function Footer(){
      </div>
      <div className="flex flex-col-reverse justify-between pt-5 pb-10 border-t lg:flex-row">
        <p className="text-sm text-white">
-       © Aztürk.net 2024. Bütün hüquqlar qorunur.
+       © Aztürk mmc . Bütün hüquqlar qorunur.
        </p>
        <ul className="flex flex-col mb-3 space-y-2 lg:mb-0 sm:space-y-0 sm:space-x-5 sm:flex-row">
          <li>

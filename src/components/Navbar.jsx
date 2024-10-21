@@ -1,7 +1,7 @@
 // Navbar.jsx
 "use client";
 import React, { useState } from 'react';
-import Link from 'next/link'; // Next.js Link bileşenini import et
+import Link from 'next/link';
 
 const Navbar = () => {
     const [expanded, setExpanded] = useState(false);
@@ -15,7 +15,7 @@ const Navbar = () => {
             <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
                 <div className="flex items-center justify-between p-4 border-b-2 border-gray-100">
                     <div className="shrink-0">
-                        <Link href="/" title="" className='text-white text-3xl font-bold font-serif'>
+                        <Link href="/" title="" className='text-white text-2xl font-bold font-serif'>
                             AZTURK.NET
                         </Link>
                     </div>
@@ -40,7 +40,7 @@ const Navbar = () => {
                         </button>
                     </div>
 
-                    <nav className="hidden ml-10 mr-auto space-x-10 lg:ml-20 lg:space-x-12 md:flex md:items-center md:justify-start">
+                    <nav className="hidden ml-10 mr-auto  space-x-10 lg:ml-20 lg:space-x-12 lg:flex md:items-center md:justify-start">
                         {[
                             { name: 'Ana Səhifə', href: '/' },
                             { name: 'Haqqimizda', href: '/Haqqimizda' },
@@ -49,7 +49,7 @@ const Navbar = () => {
                             { name: 'Ödəniş et', href: 'https://fpay.az/guest/payments/new-payment/category/undefined/merchant/6143'}
                                 ]
                         .map(item => (
-                            <Link key={item.name} href={item.href} className="text-base font-normal text-gray-400 transition-all duration-200 hover:text-white">
+                            <Link key={item.name} href={item.href} className="text-lg  font-normal text-gray-400 transition-all duration-200 hover:text-white">
                                 {item.name}
                             </Link>
                         ))}
@@ -57,7 +57,7 @@ const Navbar = () => {
 
                     <div className="relative hidden md:inline-flex group">
                         <div className="absolute transition-all duration-200 rounded-full -inset-px bg-gradient-to-r from-cyan-500 to-purple-500 group-hover:shadow-lg group-hover:shadow-cyan-500/50"></div>
-                        <Link href="/#" className="relative inline-flex items-center justify-center px-6 py-2 text-base font-normal text-white bg-slate-600 border border-transparent rounded-full">
+                        <Link href="tel:+994123100777" className="relative inline-flex items-center justify-center px-6 py-2 text-base font-normal text-white bg-slate-600 border border-transparent rounded-full">
                             Bizimlə əlaqə
                         </Link>
                     </div>
@@ -71,13 +71,13 @@ const Navbar = () => {
                         { name: 'Əlaqə', href: '/Elaqe' },
                         { name: 'Ödəniş et', href: 'https://fpay.az/guest/payments/new-payment/category/undefined/merchant/6143' }
                     ].map(item => (
-                        <Link key={item.name} href={item.href} className="text-base font-normal text-gray-400 transition-all duration-200 hover:text-white">
+                        <a key={item.name} href={item.href} className="text-base font-normal text-gray-400 transition-all duration-200 hover:text-white">
                             {item.name}
-                        </Link>
+                        </a>
                     ))}
                     <div className="relative inline-flex items-center justify-center group">
                         <div className="absolute transition-all duration-200 rounded-full -inset-px bg-gradient-to-r from-cyan-500 to-purple-500 group-hover:shadow-lg group-hover:shadow-cyan-500/50"></div>
-                        <Link href="/#" className="relative inline-flex items-center justify-center w-full px-6 py-2 text-base font-normal text-white bg-slate-600 border border-transparent rounded-full">
+                        <Link href="tel:+994123100777" className="relative inline-flex items-center justify-center w-full px-6 py-2 text-base font-normal text-white bg-slate-600 border border-transparent rounded-full">
                             Bizimlə əlaqə
                         </Link>
                     </div>

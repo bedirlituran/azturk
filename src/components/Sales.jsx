@@ -161,13 +161,13 @@ const Sales = () => {
 
             <div className="relative group">
                 <div className="overflow-hidden aspect-w-1 aspect-h-1 shadow-2xl">
-                    <img className="object-contain w-full h-full transition-all duration-300 group-hover:scale-125" src="https://bossnet.az/images/devices/4149198750163025233.png" alt="" />
+                    <img className="object-cover w-full h-[213px] transition-all duration-300 group-hover:scale-125" src="https://bossnet.az/images/devices/9606270968142294010.jpg" alt="" />
                 </div>
                 <div className="flex items-start justify-between mt-4 space-x-4">
                     <div>
                         <h3 className="text-xs font-bold text-gray-900 sm:text-sm md:text-base">
                             <a href="#" title="">
-                            Router TP-Link TL-WR841N
+                            TP-Link Wi-Fi Router Archer C24
                                 <span className="absolute inset-0" aria-hidden="true"></span>
                             </a>
                         </h3>

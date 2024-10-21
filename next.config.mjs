@@ -1,7 +1,14 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'export', // Statik dışa aktarma ayarı
+  trailingSlash: true, // URL'lerin sonuna eğik çizgi eklemek için
   images: {
-    domains: ['via.placeholder.com','https://landingfoliocom.imgix.net',"https://unsplash.com","http://www.w3.org"] // Harici resim sağlayıcısı ekleniyor
+    domains: [
+      'via.placeholder.com',
+      'landingfoliocom.imgix.net',
+      'unsplash.com',
+      'w3.org'
+    ], // Harici resim sağlayıcıları
   },
 };
 

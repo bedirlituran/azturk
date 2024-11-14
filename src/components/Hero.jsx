@@ -61,7 +61,8 @@ const Hero = () => {
                     <div className="relative">
                         <div className="absolute inset-0 transform -translate-x-1/2 -translate-y-1/2 bgpurple-500 rounded-3xl blur-3xl"></div>
                         <div className="relative z-10">
-                            <img src="/image/carousel6.png" alt="Big Image" className="relative z-10 w-full rounded-xl shadow-lg" />
+                        <img src="/image/hero2.png" alt="Big Image" className="relative z-10 w-full mb-28 h-full rounded-xl shadow-lg" />
+
                         </div>
                     </div>
                 </div>

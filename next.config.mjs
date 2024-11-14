@@ -7,8 +7,11 @@ const nextConfig = {
       'via.placeholder.com',
       'landingfoliocom.imgix.net',
       'unsplash.com',
-      'w3.org'
-    ], // Harici resim sağlayıcıları
+      'w3.org',
+      'www.citynet.az',
+      'www.google.com',
+      'ilrorwxhjqkkjr5q-static.micyjz.com',
+    ],
   },
 };
 

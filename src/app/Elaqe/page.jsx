@@ -21,7 +21,7 @@ const HomePage = () => {
               </svg>
             </span>
             <h2 className="mt-4 text-lg md:text-xl font-medium text-red-500 dark:text-white">İP TV</h2>
-            <p className="mt-2 text-gray-500 dark:text-gray-400">077 223 44 71<br />077 --- -- -- <br/>--- -- --</p>
+            <p className="mt-2 text-gray-500 dark:text-gray-400"><br />012 310 07 77 <br/></p>
           </div>
 
           <div className="text-center">
@@ -32,7 +32,7 @@ const HomePage = () => {
             </span>
             <h2 className="mt-4 text-lg md:text-xl font-medium text-red-500 dark:text-white">Kabel Tv & Internet</h2>
           
-            <p className="mt-2 text-gray-500 dark:text-gray-400">-<br></br>077 610 48 88<br />012 310 48 88</p>
+            <p className="mt-2 text-gray-500 dark:text-gray-400">-<br></br>012 310 07 77<br /></p>
           </div>
 
           <div className="text-center">
@@ -43,7 +43,7 @@ const HomePage = () => {
             </span>
             <h2 className="mt-4 text-lg md:text-xl font-medium text-red-500 dark:text-white">Email</h2>
           
-            <p className="mt-2 text-gray-500 dark:text-gray-400">-<br></br>email əlaqə<br></br>azturk_net@mail.ru</p>
+            <p className="mt-2 text-gray-500 dark:text-gray-400">-<br></br>email əlaqə<br></br>sales@azturk.az</p>
           </div>
         </div>
       </div>
